@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #0f0f0f;
+  --primary: #b91c1c; /* rojo parrilla */
+  --secondary: #f59e0b; /* dorado */
+  --text: #f5f5f5;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: system-ui, sans-serif;
+}
